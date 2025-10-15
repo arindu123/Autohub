@@ -1,0 +1,182 @@
+.Hlogo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 350px;
+    margin-left: 15px;
+}
+
+.Flogo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-left: 350px;
+}
+
+.nvbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(77, 67, 184);
+    padding: 5px;
+}
+
+ul#nvgbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Ensures proper horizontal alignment */
+    align-items: center; /* Vertically aligns text and logo */
+    overflow:hidden;
+    background-color:rgb(77, 67, 184);
+}
+
+li.nvglist{
+	float:left;
+    margin-right: 30px;
+}
+
+li.nvglist a{
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li.nvglist a:hover{
+	background-color:rgb(14, 14, 17);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+.color{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(vehicle.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form{
+    width:420px;
+    background:transparent;
+    border: 3px solid rgba(255,255,255, .2);
+    color:white;
+    backdrop-filter: blur(80px);
+    border-radius: 12px;
+    padding: 30px 40px;
+   
+}
+
+.form h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.form .iputbox{
+    position: relative;
+    width:100%;
+    height: 50px;
+
+    margin:30px 0;
+
+}
+
+.iputbox input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color:#fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.iputbox input::placeholder{
+    color:#fff;
+}
+
+.iputbox i{
+    position: absolute;
+    right: 20px;
+    top:20px;
+    transform: translate(-50);
+    font-size:20px;
+}
+
+.form .data{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px;
+}
+
+.form .data label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.form .data a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.form .data a:hover{
+    text-decoration: underline;
+}
+
+.form .btn{
+    width: 100%;
+    height:45px;
+    background: #fff;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+}
+.btn:hover {
+    background: linear-gradient(45deg, #f06595, #ff6b6b);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form .rejister{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.form .rejister p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.form .rejister p a:hover{
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
